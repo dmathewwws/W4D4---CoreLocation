@@ -13,6 +13,9 @@
 		126FAB101B60A117000AA657 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 126FAB0E1B60A117000AA657 /* Main.storyboard */; };
 		126FAB121B60A117000AA657 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 126FAB111B60A117000AA657 /* Assets.xcassets */; };
 		126FAB151B60A117000AA657 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 126FAB131B60A117000AA657 /* LaunchScreen.storyboard */; };
+		126FAB1D1B60A12E000AA657 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 126FAB1C1B60A12E000AA657 /* CoreLocation.framework */; };
+		12E4B8F01B612CA7006A70F7 /* MyUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E4B8EF1B612CA7006A70F7 /* MyUtility.m */; };
+		12E4B8F31B613AAA006A70F7 /* Venue.m in Sources */ = {isa = PBXBuildFile; fileRef = 12E4B8F21B613AAA006A70F7 /* Venue.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,11 @@
 		126FAB111B60A117000AA657 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		126FAB141B60A117000AA657 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		126FAB161B60A117000AA657 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		126FAB1C1B60A12E000AA657 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		12E4B8EE1B612CA7006A70F7 /* MyUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyUtility.h; sourceTree = "<group>"; };
+		12E4B8EF1B612CA7006A70F7 /* MyUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyUtility.m; sourceTree = "<group>"; };
+		12E4B8F11B613AAA006A70F7 /* Venue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Venue.h; sourceTree = "<group>"; };
+		12E4B8F21B613AAA006A70F7 /* Venue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Venue.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				126FAB1D1B60A12E000AA657 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +51,7 @@
 		126FAAF91B60A117000AA657 = {
 			isa = PBXGroup;
 			children = (
+				126FAB1C1B60A12E000AA657 /* CoreLocation.framework */,
 				126FAB041B60A117000AA657 /* W4D4 - CoreLocation */,
 				126FAB031B60A117000AA657 /* Products */,
 			);
@@ -62,6 +72,10 @@
 				126FAB091B60A117000AA657 /* AppDelegate.m */,
 				126FAB0B1B60A117000AA657 /* ViewController.h */,
 				126FAB0C1B60A117000AA657 /* ViewController.m */,
+				12E4B8EE1B612CA7006A70F7 /* MyUtility.h */,
+				12E4B8EF1B612CA7006A70F7 /* MyUtility.m */,
+				12E4B8F11B613AAA006A70F7 /* Venue.h */,
+				12E4B8F21B613AAA006A70F7 /* Venue.m */,
 				126FAB0E1B60A117000AA657 /* Main.storyboard */,
 				126FAB111B60A117000AA657 /* Assets.xcassets */,
 				126FAB131B60A117000AA657 /* LaunchScreen.storyboard */,
@@ -149,8 +163,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12E4B8F01B612CA7006A70F7 /* MyUtility.m in Sources */,
 				126FAB0D1B60A117000AA657 /* ViewController.m in Sources */,
 				126FAB0A1B60A117000AA657 /* AppDelegate.m in Sources */,
+				12E4B8F31B613AAA006A70F7 /* Venue.m in Sources */,
 				126FAB071B60A117000AA657 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -298,6 +314,7 @@
 				126FAB1B1B60A117000AA657 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
